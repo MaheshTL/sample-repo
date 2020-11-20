@@ -1,13 +1,13 @@
 on:
   schedule:
   - cron: 0 0 0 * * ?
-name: Weekly Issue Closure
+name: daily Issue Closure
 jobs:
   cycle-weekly-close:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: weekly-issue-closure
+    - name: daily-issue-closure
       uses: bdougie/close-issues-based-on-label@master
       env:
         LABEL: custom
