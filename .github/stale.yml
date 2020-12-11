@@ -11,11 +11,6 @@ onlyLabels:
 # Label to use when marking an issue as stale
 staleLabel: stale
 
-# Limit the number of actions per hour, from 1-30. Default is 30
-limitPerRun: 30
-
-# Limit to only `issues` or `pulls`
-only: issues
 
 # Comment to post when marking an issue as stale. Set to `false` to disable
 markComment: >
@@ -23,5 +18,11 @@ markComment: >
   recent activity. It will be closed if no further activity occurs. Thank you
   for your contributions.
 
+
+# Limit the number of actions per hour, from 1-30. Default is 30
+limitPerRun: 30
+
+# Limit to only `issues` or `pulls`
+only: issues
 
 # Comment to post when 
