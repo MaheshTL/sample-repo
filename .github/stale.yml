@@ -4,7 +4,8 @@ daysUntilStale: 1
 daysUntilClose: 1
 # Issues with these labels will never be considered stale
 
-onlyLabels: []
+onlyLabels: 
+    - "custom request"
 
 exemptLabels: []
 
